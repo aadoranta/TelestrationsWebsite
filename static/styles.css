@@ -1,0 +1,18 @@
+.header {
+    display=flex;
+    text-align: center;
+    background-color: lightblue;
+    font-size: 48px;
+}
+
+.word-button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.word-button {
+    font-size: 52px;
+    text-align: center;
+}

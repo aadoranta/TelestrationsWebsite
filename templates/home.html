@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Forbes</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+
+    <div class="header">
+        <h1>Choose a word Forbes Fam</h1>
+    </div>
+
+    <div class="word-button-container">
+        <form method="post" action="{{ url_for('generate_word') }}">
+            <button class="word-button" type="submit" name="myButton">Generate Word</button>
+        </form>
+    </div>
+
+    <div class="word-button">
+        <p>{{ word }}</p>
+    </div>
+
+</body>
+</html>
